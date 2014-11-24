@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Don't mix 3G with HSPA and 4G with LTE -->
+    <bool name="config_hspa_data_distinguishable">true</bool>
+    <bool name="config_show4GForLTE">false</bool>
+</resources>
