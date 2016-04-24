@@ -6,19 +6,8 @@
         <item>com.android.location.fused</item>
     </string-array>
 
-    <!-- This is an in-dash device — we don't want different volume levels -->
-    <bool name="config_useMasterVolume">true</bool>
-    <bool name="config_useVolumeKeySounds">false</bool>
-
     <!-- Fading marquees removes incorrect abbreviations throughout the UI -->
     <bool name="config_ui_enableFadingMarquee">true</bool>
-
-    <!-- There's no point to rotate the screen with fixed installations -->
-    <bool name="config_supportAutoRotation">false</bool>
-    <bool name="config_forceDefaultOrientation">true</bool>
-
-    <!-- Added text makes buttons a bit bigger and easier to press -->
-    <bool name="config_allowActionMenuItemTextWithIcon">true</bool>
 
     <!-- I can't see a valid use case for Dreams yet. -->
     <bool name="config_dreamsSupported">false</bool>
